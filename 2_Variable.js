@@ -14,3 +14,5 @@ const PI = 3.14
 
 // NOTE 
 //Variable is used to resuable data/value
+// let: if infuture we want to change the value of the variable
+// const: if we don't want to chnage the value of the variable
