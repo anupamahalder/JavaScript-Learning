@@ -33,7 +33,13 @@
  *           Not(!)
  *           
  *  5. Increment Decrement Operator =>
- *  6. Bitwise Operator => or(||), and(&&), not(!)
+ *           Increment(++)=>
+ *              1. Preincrement,
+ *              2. Postincrement
+ *           Decrement(--)=>
+ *              1. Predecrement,
+ *              2. Postdecrement
+ *  6. Bitwise Operator => or(|), and(&), not(!)
  *  
 */
 
@@ -77,3 +83,13 @@ console.log((10 < 9) || (20 != 20)); // false
 // Logical NOT (! True / False) (changed false to true and true to false)
 console.log(!true); // false
 console.log(!false); // true
+
+// Increment Operator 
+let num = 5;
+++num; // 6
+num++; // 6
+
+// Decrement Operator
+let ans = 7;
+--ans; // 6
+ans--; // 6 
