@@ -27,7 +27,11 @@
  *           Equal To(==),
  *           Not Equal(!=),
  *           
- *  4. Logical Oprator =>
+ *  4. Logical Oprator => (The result always returns either true or false working with conditons and gives final output using truth table)
+ *           And(&&),
+ *           Or(||),
+ *           Not(!)
+ *           
  *  5. Increment Decrement Operator =>
  *  6. Bitwise Operator => or(||), and(&&), not(!)
  *  
@@ -56,3 +60,20 @@ res = (10 <= 10); // true
 res = (7 != 9); // true
 res = (3 == 3); // true
 console.log(res);
+
+// Logical operator 
+// Logical AND (True/False && True/False) (both conditons have to true to get end result as true)
+console.log((10 > 9) && (20 == 20)); // true
+console.log((10 < 9) && (20 == 20)); // false
+console.log((10 > 9) && (20 != 20)); // false
+console.log((10 < 9) && (20 != 20)); // false
+
+// Logical OR (True/False || True/False) (any one conditon has to be true to get end result as true)
+console.log((10 > 9) || (20 == 20)); // true
+console.log((10 < 9) || (20 == 20)); // true
+console.log((10 > 9) || (20 != 20)); // true
+console.log((10 < 9) || (20 != 20)); // false
+
+// Logical NOT (! True / False) (changed false to true and true to false)
+console.log(!true); // false
+console.log(!false); // true
