@@ -19,7 +19,14 @@
  *           Division Equal(/=),
  *           Modulus Equal(%=),
  *  
- *  3. Relational Oprator =>
+ *  3. Relational Oprator => (Defines a relationship between operands, the relationship can either be true or false)
+ *           Greater Than(>),
+ *           Less Than(<),
+ *           Greater Than or Equal(>=),
+ *           Less Than or Equal(<=),
+ *           Equal To(==),
+ *           Not Equal(!=),
+ *           
  *  4. Logical Oprator =>
  *  5. Increment Decrement Operator =>
  *  6. Bitwise Operator => or(||), and(&&), not(!)
@@ -41,3 +48,11 @@ A *= 6; // 66
 A /= 5; // 6.19999999999
 A %= 7; // 6.19999999999
 
+// Relational operator
+let res = (5 > 6); // false
+res = (4 < 7); //true
+res = (43 >= 7); // true
+res = (10 <= 10); // true
+res = (7 != 9); // true
+res = (3 == 3); // true
+console.log(res);
