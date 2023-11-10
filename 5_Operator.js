@@ -11,7 +11,7 @@
  *           Division(/),
  *           Modulus(%)
  * 
- *  2. Assignment Oprator => 
+ *  2. Assignment Oprator => (Assigning value to a variable)
  *           Equal(=),
  *           Plus Equal(+=),
  *           Minus Equal(-=),
@@ -43,14 +43,14 @@
  *  
 */
 
-// Arithmetic Operator 
+// --------------------Arithmetic Operator-------------------- 
 const a = 5 + 4; // 9
 const b = 5 - 4; // 1
 const c = 5 * 4; // 20
 const d = 5 / 4; // 1.25
 const e = 5 % 4; // 1
 
-// Assignment operator 
+// --------------------Assignment operator--------------------
 let A = 10; // 10
 A += 5; // 15
 A -= 4; // 11
@@ -58,7 +58,7 @@ A *= 6; // 66
 A /= 5; // 6.19999999999
 A %= 7; // 6.19999999999
 
-// Relational operator
+// --------------------Relational operator---------------------
 let res = (5 > 6); // false
 res = (4 < 7); //true
 res = (43 >= 7); // true
@@ -67,7 +67,7 @@ res = (7 != 9); // true
 res = (3 == 3); // true
 console.log(res);
 
-// Logical operator 
+// --------------------Logical operator------------------------- 
 // Logical AND (True/False && True/False) (both conditons have to true to get end result as true)
 console.log((10 > 9) && (20 == 20)); // true
 console.log((10 < 9) && (20 == 20)); // false
@@ -84,6 +84,7 @@ console.log((10 < 9) || (20 != 20)); // false
 console.log(!true); // false
 console.log(!false); // true
 
+// -----------------------Increment Operator------------------------
 // Increment Operator 
 let num = 5;
 ++num; // 6
