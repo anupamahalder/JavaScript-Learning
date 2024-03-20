@@ -1,5 +1,5 @@
 # JavaScript Learning
-In this repository, I added javascript topic each day.
+I will cover JavaScript and ES6 version of JavaScript language.
 
 ## Topic:
 1. String
