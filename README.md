@@ -7,3 +7,7 @@ I will cover JavaScript and ES6 version of JavaScript language.
 3. Array
 4. Function
 5. Number
+
+### What is Asynchronous Programming?
+1. Not existing or occuring at the same time.
+2. Controlling the timing of operations by the use of pulses sent when the previous operation is completed rather than at regular intervals.
