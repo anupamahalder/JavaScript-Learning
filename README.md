@@ -19,7 +19,7 @@ Because JavaScript is a single threaded language. That means, JavaScript process
 1. Heap to manage Variables
 2. Stack to manage Function calls
 
-JavaScript Engine (V8) handles Asynchronous which includes Call Stack, Web API, Event Loop, Callback Queue. JavaScript uses 4 terms (Call Stack, Web API, Event Loop, Callback Queue) to achieve asynchronous features.
+JavaScript Engine (V8) handles Asynchronous which includes Call Stack, Web API, Event Loop, Callback Queue. JavaScript engine uses 4 terms (Call Stack, Web API, Event Loop, Callback Queue) to achieve asynchronous features.
 
 #### Call Stack:
 To maintain the order of functions to be called. It follows LIFO method (Last In First Out).
