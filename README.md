@@ -30,9 +30,18 @@ It is FIFO data structure (First In First Out). It is like a queue which stores 
 #### Event Loop:
 Event loop understands which callback functions should be executed and sends that callback function to the Call Stack.
 
-
-
-
+## What is V8 Engine?
+V8 is Google's open source high-performance JavaScript and Web Assembly engine, written in C++. V8 is a C++ program, which receives JavaScript code, compiles, and executes it.
+### What does V8 do?
+1. Compile and executes JavaScript code
+2. Handling Call Stack
+3. Handling Heap memory to Allocate Memory for variables
+4. Collect Garbage- Release Memory which is No longer necessary
+5. Provide Data Types, Operations, Objects and Functions
+### What does V8 donot do?
+1. Document Object Model - Don't know anything about it.
+2. Multiple V8 Engine never share variables or context.
+   
 
 
 
