@@ -17,4 +17,4 @@ Asynchronous means that you can execute multiple things at a time and you don't 
 Because JavaScript is a single threaded language. That means, JavaScript process one task at a time. JavaScript uses two Data structure to handle variables and function calls. 
 1. Heap to manage Variables
 2. Stack to manage Function calls
-   
+JavaScript Engine (V8) handles Asynchronous which includes Call Stack, Web API, Event Loop, Callback Queue.
