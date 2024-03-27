@@ -41,6 +41,17 @@ V8 is Google's open source high-performance JavaScript and Web Assembly engine, 
 ### What does V8 donot do?
 1. Document Object Model - Don't know anything about it.
 2. Multiple V8 Engine never share variables or context.
+##
+
+### There are 3 ways to handle Asynchronous program in JavaScript:
+1. Callback
+2. Promise
+3. Async Function (Better version of Promise)
+### There are 3 ways to handle Collection on Async Operation:
+1. Async Iterator
+2. For await of Loop
+3. Async Generator
+
    
 
 
