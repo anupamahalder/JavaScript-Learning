@@ -1,12 +1,17 @@
 # JavaScript Learning
 I will cover JavaScript and ES6 version of JavaScript language.
 
-## Topic:
-1. String
-2. Object
-3. Array
-4. Function
-5. Number
+## DataType:
+### Primitive Datatype:
+1. string
+2. number
+3. boolean
+4. number
+5. undefined
+### Non-Primitive Datatype:
+1. Object
+2. Array
+3. Function
 
 ## What is Asynchronous Programming?
 1. Not existing or occuring at the same time.
