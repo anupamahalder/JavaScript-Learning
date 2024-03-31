@@ -15,3 +15,19 @@ else if(applePrice == biriyaniPrice){
 else{
     console.log('Apple is cheaper!');
 }
+
+// Multiple conditions
+
+const salary = 25000;
+const isMCA = true;
+const height = 165;
+
+if((salary > 30000 && height > 130) || isMCA){
+    console.log('You are selected!');
+}
+else if(salary > 25000 || height > 130){
+    console.log('You are selected for next time!');
+}
+else{
+    console.log('Better luck next time!');
+}
